@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="ig: @harrnish / @codegridweb" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS Js -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Menu Js -->
+    <script src="https://cdn.jsdelivr.net/npm/circular-revealer@0.0.8/dist/index.iife.js"></script>
+
+    <!-- ANIMEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet" />
+
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- SCROLL REVEAL ANIMATIONS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+    <!-- SIMPLE PARALLAX -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+  </head>
+  <body>
+    <div class="progress-wrap">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+
+    <!-- HERO SECTION -->
+    <a name="home"></a>
+    <div class="wrapper">
+      <section class="hero-section">
+        <!-- LOGO -->
+        <div class="hero-logo">FZ</div>
+
+        <!-- Navbar -->
+        <div class="navigasi">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- TOGGLE BUTTON -->
+        <header>
+          <div>
+            <button class="header__button nav-btn-js" type="button"></button>
+            <nav class="header__nav nav-js" data-active="false">
+              <ul class="header__menu">
+                <li class="header__menu-item"><a href="#home">Home</a></li>
+                <li class="header__menu-item"><a href="#projects">Projects</a></li>
+                <li class="header__menu-item"><a href="#about">About</a></li>
+                <li class="header__menu-item"><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        <!-- SOCIAL MEDIA ICONS -->
+        <div class="media">
+          <ul>
+            <li><a href="https://www.facebook.com/muhammad.farhanzinan">Facebook</a></li>
+            <li><a href="https://twitter.com/Sayhanss1">Twitter</a></li>
+            <li><a href="https://www.instagram.com/sayhanss/">Instagram</a></li>
+          </ul>
+        </div>
+
+        <!-- Balance -->
+        <div class="balance">
+          <div class="tulis">
+            <p>available for new project</p>
+          </div>
+          <div class="dot"></div>
+        </div>
+
+        <!-- VIEW PHOTOS LINK -->
+        <div class="view-photos">
+          <a href="#projects">Check My Portfolio</a>
+        </div>
+
+        <!-- Text Circle -->
+
+        <div class="text-circle">
+          <h1 class="texttt">Scroll Down - Scroll Down -</h1>
+        </div>
+
+        <!-- HERO-TITLE -->
+        <div class="smooth-scroll-wrapper">
+          <div class="content-hero">
+            <div class="container-hero">
+              <div class="image-container-hero">
+                <h2 class="text text-gelap">
+                  <span class="parallax-title"> Muhammad Farhan Zinan </span>
+                </h2>
+              </div>
+
+              <h2 class="text">
+                <span class="parallax-title"> Muhammad Farhan Zinan </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="close-btn">
+            <ion-icon name="close"></ion-icon>
+          </div>
+          <div class="menu">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <a name="about"></a>
+      <section class="about-section">
+        <div class="container">
+          <div class="row">
+            <div class="about-heading col-lg-6">
+              <h1 class="wow fadeInUp" data-aos="fade-right" data-aos-duration="2000">About Me !</h1>
+              <img src="img/123.svg" alt="" data-aos="fade-up" data-aos-duration="2000" />
+            </div>
+            <div class="about-content col-lg-6" data-aos="fade-left" data-aos-duration="2000">
+              <h3 class="wow fadeInUp">Hello my name is Muhammad Farhan Zinan, I am 20 years old, I live in Indonesia</h3>
+              <p class="wow fadeInUp">Freelance frontend developer, A passionate Front-end Website Developer. Having an experience of building Web with HTML, CSS, JavaScript, and some other cool libraries and frameworks.</p>
+              <p class="wow fadeInUp">I really love the field of visual arts such as videography, photography, web design, and web developing.</p>
+              <div class="about-link wow fadeInUp" data-aos="fade-up" data-aos-offset="100" data-aos-duration="2000">
+                <a href="#contact">MORE INFO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Project -->
+      <a name="projects"></a>
+      <section class="project-section">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="arrow-down">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="project-heading col-lg-6">
+                <h1 class="wow fadeInUp" data-aos="fade-up" data-aos-duration="2000">Projects</h1>
+                <p class="wow fadeInUp" data-aos="fade-up" data-aos-duration="2000">These are some of the projects I've worked on.</p>
+              </div>
+            </div>
+          </div>
+          <div class="projects">
+            <div class="row project-row">
+              <div class="project project-1 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="img/laptop.svg" class="project-1-img project-img img-responsive fit-image" />
+              </div>
+              <div class="project project-2 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="img/laptop.svg" class="project-2-img project-img img-responsive fit-image" />
+              </div>
+            </div>
+            <div class="row project-row">
+              <div class="project project-3 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="img/laptop.svg" class="project-3-img project-img img-responsive fit-image" />
+              </div>
+              <div class="project project-4 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="img/laptop.svg" class="project-4-img project-img img-responsive fit-image" />
+              </div>
+            </div>
+            <div class="row project-row">
+              <div class="project project-5 col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="img/laptop.svg" class="project-5-img project-img img-responsive fit-image" />
+              </div>
+              <div class="project project-6 col-lg-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="img/laptop.svg" class="project-6-img project-img img-responsive fit-image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <a name="contact"></a>
+      <section class="social-media">
+        <div class="container">
+          <div class="row">
+            <div class="sm-heading col-lg-6">
+              <h1 class="wow fadeInUp" data-aos="fade-up" data-aos-duration="2000">Reach out</h1>
+            </div>
+            <div class="sm-content col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+              <h3 class="wow fadeInUp">farhanzinan@gmail.com</h3>
+              <p class="wow fadeInUp">Contact me if you need services to create a website, you can choose a contact via my social media which is below</p>
+              <p class="wow fadeInUp">I will help you finding a solution and solve your problems, I use process design to create digital products. Beside that also help your business</p>
+            </div>
+          </div>
+          <div class="col-lg-12 text-left">
+            <div class="social-icons">
+              <ul>
+                <li class="wow fadeInUp">
+                  <a href="https://www.facebook.com/muhammad.farhanzinan">facebook</a>
+                </li>
+                <li class="wow fadeInUp">
+                  <a href="https://www.instagram.com/sayhanss/">instagram</a>
+                </li>
+                <li class="wow fadeInUp">
+                  <a href="https://twitter.com/Sayhanss1">twitter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script>
+      // Awal Hero
+      let atScroll = false;
+      let parallaxTitle = document.querySelectorAll('.parallax-title');
+
+      const scrollProgress = () => {
+        atScroll = true;
+      };
+
+      const raf = () => {
+        if (atScroll) {
+          parallaxTitle.forEach((element, index) => {
+            element.style.transform = 'translateX(' + window.scrollY / 8 + '%)';
+          });
+          atScroll = false;
+        }
+        requestAnimationFrame(raf);
+      };
+
+      requestAnimationFrame(raf);
+      window.addEventListener('scroll', scrollProgress);
+      // Akhir Hero
+
+      // Scroll Awal
+      $(document).ready(function () {
+        var progressPath = document.querySelector('.progress-wrap path');
+        var pathLength = progressPath.getTotalLength();
+
+        progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+        progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+        progressPath.style.strokeDashoffset = pathLength;
+        progressPath.getBoundingClientRect();
+        progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+
+        var updateProgress = function () {
+          var scroll = $(window).scrollTop();
+          var height = $(document).height() - $(window).height();
+          var progress = pathLength - (scroll * pathLength) / height;
+          progressPath.style.strokeDashoffset = progress;
+        };
+
+        updateProgress();
+        $(window).scroll(updateProgress);
+
+        var offset = 50;
+        var duration = 550;
+
+        jQuery(window).on('scroll', function () {
+          if (jQuery(this).scrollTop() > offset) {
+            jQuery('.progress-wrap').addClass('active-progress');
+          } else {
+            jQuery('.progress-wrap').removeClass('active-progress');
+          }
+        });
+
+        jQuery('.progress-wrap').on('click', function (event) {
+          event.preventDefault();
+          jQuery('html, body').animate({ scrollTop: 0 }, duration);
+          return false;
+        });
+      });
+      // Scroll Akhir
+
+      //   Menu
+      document.addEventListener('DOMContentLoaded', () => {
+        const revealerNav = window.revealer({
+          revealElementSelector: '.nav-js',
+          options: {
+            anchorSelector: '.nav-btn-js',
+          },
+        });
+
+        const actionBtn = document.querySelector('.nav-btn-js');
+        actionBtn.addEventListener('click', () => {
+          if (!revealerNav.isRevealed()) {
+            revealerNav.reveal();
+            actionBtn.setAttribute('data-open', true);
+          } else {
+            revealerNav.hide();
+            actionBtn.setAttribute('data-open', false);
+          }
+        });
+      });
+      // Akhir menu
+
+      // Text Circle
+
+      const text = document.querySelector('.texttt');
+      text.innerHTML = text.textContent.replace(/\S/g, '<span>$&</span>');
+
+      const element = document.querySelectorAll('.text-circle .texttt span');
+      for (let i = 0; i < element.length; i++) {
+        element[i].style.transform = 'rotate(' + i * 16.5 + 'deg)';
+      }
+      // AKhir Text Circle
+      //   new WOW().init();
+
+      //   var textWrapper = document.querySelector('.hero-title');
+      //   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      //   $(document).ready(function () {
+      //     anime.timeline({ loop: false }).add({
+      //       targets: '.hero-title .letter',
+      //       translateY: [120, 0],
+      //       translateZ: 0,
+      //       opacity: [0, 1],
+      //       easing: 'easeOutExpo',
+      //       duration: 1400,
+      //       delay: (el, i) => 2000 + 40 * i,
+      //     });
+      //   });
+
+      //   var t1 = new TimelineMax({ paused: true });
+
+      TweenMax.from('.parallax-title', 3, {
+        scale: 0,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 0.2,
+      });
+
+      TweenMax.from('.hero-logo', 2, {
+        y: -20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1,
+      });
+
+      TweenMax.from('.navigasi', 2, {
+        y: -20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1,
+      });
+
+      TweenMax.from('.header__button', 2, {
+        y: -20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1,
+      });
+
+      TweenMax.from('.view-photos', 2, {
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1.6,
+      });
+
+      TweenMax.from('.text-circle', 2, {
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1.6,
+      });
+
+      TweenMax.from('.media', 2, {
+        x: 20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1.4,
+      });
+
+      TweenMax.from('.balance', 2, {
+        x: -20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1.4,
+      });
+
+      //   TweenMax.staggerFrom(
+      //     '.media ul li',
+      //     2,
+      //     {
+      //       y: 20,
+      //       opacity: 0,
+      //       ease: Expo.easeInOut,
+      //       delay: 1.6,
+      //     },
+      //     0.1
+      //   );
+
+      //   t1.to('.overlay', 1, {
+      //     opacity: 1,
+      //     ease: Expo.easeInOut,
+      //   });
+
+      //   t1.to('.view-photos, .media', 1, {
+      //     opacity: 0,
+      //     ease: Expo.easeInOut,
+      //   });
+
+      //   t1.staggerFrom('.menu ul li', 1, { y: 100, opacity: 0, ease: Expo.easeOut }, 0.1);
+
+      //   t1.reverse();
+      //   $(document).on('click', '.menu-toggle', function () {
+      //     t1.reversed(!t1.reversed());
+      //   });
+
+      //   $(document).on('click', '.close-btn', function () {
+      //     t1.reversed(!t1.reversed());
+      //   });
+
+      //   t1.reverse();
+      //   $(document).on('click', 'li', function () {
+      //     t1.reversed(!t1.reversed());
+      //   });
+
+      //   var image = document.getElementsByClassName('hero-img-parallax');
+      //   new simpleParallax(image, {
+      //     scale: 1.8,
+      //   });
+
+      //   var image = document.getElementsByClassName('project-1-img');
+      //   new simpleParallax(image, {
+      //     scale: 1.8,
+      //   });
+
+      //   var image = document.getElementsByClassName('project-2-img');
+      //   new simpleParallax(image, {
+      //     scale: 1.8,
+      //   });
+
+      //   var image = document.getElementsByClassName('project-3-img');
+      //   new simpleParallax(image, {
+      //     scale: 1.8,
+      //   });
+
+      //   var image = document.getElementsByClassName('project-4-img');
+      //   new simpleParallax(image, {
+      //     scale: 1.8,
+      //   });
+
+      //   var image = document.getElementsByClassName('project-5-img');
+      //   new simpleParallax(image, {
+      //     scale: 1.8,
+      //   });
+
+      //   var image = document.getElementsByClassName('project-6-img');
+      //   new simpleParallax(image, {
+      //     scale: 1.8,
+      //   });
+
+      //   // Select all links with hashes
+      //   $('a[href*="#"]')
+      //     // Remove links that don't actually link to anything
+      //     .not('[href="#"]')
+      //     .not('[href="#0"]')
+      //     .click(function (event) {
+      //       // On-page links
+      //       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      //         // Figure out element to scroll to
+      //         var target = $(this.hash);
+      //         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      //         // Does a scroll target exist?
+      //         if (target.length) {
+      //           // Only prevent default if animation is actually gonna happen
+      //           event.preventDefault();
+      //           $('html, body').animate(
+      //             {
+      //               scrollTop: target.offset().top,
+      //             },
+      //             1000,
+      //             function () {
+      //               // Callback after animation
+      //               // Must change focus!
+      //               var $target = $(target);
+      //               $target.focus();
+      //               if ($target.is(':focus')) {
+      //                 // Checking if the target was focused
+      //                 return false;
+      //               } else {
+      //                 $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+      //                 $target.focus(); // Set focus again
+      //               }
+      //             }
+      //           );
+      //         }
+      //       }
+      //     });
+    </script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
